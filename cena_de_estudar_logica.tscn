@@ -2,7 +2,13 @@
 
 [ext_resource type="Script" uid="uid://d1q7sopyitfvk" path="res://cena_de_estudar_logica.gd" id="1_fn8pq"]
 
-[node name="CenaDeEstudarLogica" type="Node"]
+[node name="CenaDeEstudarLogica" type="Node" node_paths=PackedStringArray("childNode1", "childNode2")]
 script = ExtResource("1_fn8pq")
 Age = 7
 IsFloat = 69.5
+childNode1 = NodePath("Child 1")
+childNode2 = NodePath("Child 2")
+
+[node name="Child 1" type="Node" parent="."]
+
+[node name="Child 2" type="Node" parent="."]

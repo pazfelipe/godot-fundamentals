@@ -12,11 +12,19 @@ extends Node
 @export_category("Variáveis do tipo Float")
 @export var IsFloat: float = 0.0
 
+
+@export_category("Objetos")
+@export var childNode1: Node
+@export var childNode2: Node
+
 var hp: int = 10
 var dmg: int = 1
 
+var list: Array = []
+
 func _ready() -> void:
-	print(HelloWorld, Age, IsTrue, IsFloat)
+	list = [childNode1, childNode2]
+	print(list)
 
 func _process(delta) -> void:
 	pass
