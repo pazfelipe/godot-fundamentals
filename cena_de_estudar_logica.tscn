@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://wf28yan8lcvx"]
+
+[ext_resource type="Script" uid="uid://d1q7sopyitfvk" path="res://cena_de_estudar_logica.gd" id="1_fn8pq"]
+
+[node name="CenaDeEstudarLogica" type="Node"]
+script = ExtResource("1_fn8pq")
+Age = 7
+IsFloat = 69.5
