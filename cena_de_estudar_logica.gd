@@ -26,10 +26,10 @@ func _ready() -> void:
 	list = [childNode1, childNode2]
 	print(list)
 
-func _process(delta) -> void:
+func _process(_delta) -> void:
 	pass
 	
-func _physics_process(delta: float) -> void:
+func _physics_process(_delta: float) -> void:
 	if Input.is_action_just_pressed("atacar"):
 		if hp == 0:
 			print("Tá morto, já era!")
